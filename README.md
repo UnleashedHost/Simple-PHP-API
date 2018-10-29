@@ -8,11 +8,11 @@ it essentially executes a shell script located in **/sh**.
 
 In here there are a few preconfigured endpoints:
 
-⋅⋅* Disk Usage report (df -h)
-⋅⋅* Pterodactyl daemon (start and stop via systemctl)
-⋅⋅* Pterodactyl panel (php artisan up & down)
-⋅⋅* Portainer create and start
-⋅⋅* Nginx restart
+* Disk Usage report (df -h)
+* Pterodactyl daemon (start and stop via systemctl)
+* Pterodactyl panel (php artisan up & down)
+* Portainer create and start
+* Nginx restart
 
 #### If you want to use nginx with it and hide the .php extension please edit your site configuration
 #### to include this:
